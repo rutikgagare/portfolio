@@ -198,7 +198,7 @@
     margin: 0px auto;
     width: 70%;
     font-family:'Fira Sans', sans-serif;
-    padding: 3rem;
+    padding: 2rem;
     margin-top: 10%;
     border: 1px solid gold;
     border-radius: 2rem;
@@ -402,6 +402,7 @@
         width: 100vw;
     }
     .infoContainer{
+        margin-top: 25%;
         width: 95%;
         font-size: 14px;
         /* border: none; */
@@ -425,10 +426,6 @@
         visibility: visible;
     }
 
-    .infoContainer{
-        margin-top: 25%;
-    }
-
     .intro{
         width: 95%;
         margin-top: 25%;
@@ -436,10 +433,12 @@
 
     .link_container{
         margin-top: 25%;
+        width: 95%;
     }
 
     .contactform{
         margin-top: 25%;
+        width: 95%;
     }
 }
 
