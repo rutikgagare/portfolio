@@ -400,6 +400,10 @@
     .infoContainer{
         margin-top: 30%;
     }
+    
+    .intro{
+        margin-top: 30%;
+    }
 }
 
 @media(max-width: 500px){
@@ -432,6 +436,10 @@
     }
 
     .infoContainer{
+        margin-top: 25%;
+    }
+
+    .intro{
         margin-top: 25%;
     }
 }
