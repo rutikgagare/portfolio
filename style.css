@@ -440,6 +440,7 @@
     }
 
     .intro{
+        width: 95%;
         margin-top: 25%;
     }
 }
