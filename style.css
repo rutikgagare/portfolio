@@ -177,8 +177,10 @@
 }
 
 .skillcontainer{
+    width: 55%;
+    margin: auto;
     display: grid;
-    text-align: center;
+    /* text-align: center; */
     grid-template-columns: repeat(2, 1fr);
 
 }
