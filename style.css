@@ -177,10 +177,10 @@
 }
 
 .skillcontainer{
-    width: 55%;
+    width: 60%;
     margin: auto;
     display: grid;
-    /* text-align: center; */
+    text-align: left;
     grid-template-columns: repeat(2, 1fr);
 
 }
@@ -191,7 +191,7 @@
     font-family:'Fira Sans', sans-serif;
 }
 
-.skill label{
+.skill span{
     text-align: left;
 }
 
