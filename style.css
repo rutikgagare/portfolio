@@ -62,7 +62,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    background-color: rgb(60, 140, 231);
+    background-color: rgb(15, 110, 218);
     height: 100vh;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.3s ease-in;
@@ -76,7 +76,7 @@
 .sidebar nav li{
     list-style: none;
     font-size: 22px;
-    padding: 28px 0;
+    padding: 20px 0;
 }
 
 .sidebar nav li a{
@@ -280,7 +280,7 @@
 }
 
 .cross{
-    margin-left: 153px;
+    margin-left: 162px;
     margin-top: 10px;
 }
 
