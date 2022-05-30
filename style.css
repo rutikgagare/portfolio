@@ -325,7 +325,7 @@
 @media (max-width: 1000px){
     .container{
         min-height: 900px;
-        height: 1000px;
+        height: 100%;
         width: 100vw;
     }
     .navbar{
