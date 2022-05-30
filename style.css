@@ -222,8 +222,9 @@
 }
 
 input{
-    
-    width: 70%;
+
+    width: 90%;
+    min-width: 220px;
 }
 
 #emailHelp{
