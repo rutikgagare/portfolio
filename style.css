@@ -402,6 +402,7 @@
     }
     .infoContainer{
         margin-top: 2rem;
+        width: 95%;
         /* border: none; */
     }
     .navbar{
