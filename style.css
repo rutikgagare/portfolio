@@ -13,11 +13,11 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(15, 110, 218);
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: right;
-    background-color: rgb(41, 35, 60);
+    /* background-color: rgb(41, 35, 60); */
     margin-bottom: 1rem;
     /* position:fixed; */
 }
@@ -195,10 +195,13 @@
 
 /* Contact form */
 .contactform{
-    margin: 0px 88px;
+    margin: 0px auto;
+    width: 70%;
     font-family:'Fira Sans', sans-serif;
-    padding: 0 34px;
-    padding-top: 10px;
+    padding: 3rem;
+    margin-top: 10%;
+    border: 1px solid gold;
+    border-radius: 2rem;
 }
 
 .contactform h1{
@@ -234,32 +237,6 @@
     margin: 3px 0;
 }
 
-
-/* blog */
-.blogContainer{
-    margin: 0px 88px;
-    margin-top: 30px;
-}
-
-.blogItem{
-    margin: 20px;
-    font-family:'Fira Sans', sans-serif;      
-}
-
-.blogContainer h1{
-    font-family:'Fira Sans', sans-serif;
-    margin: 23px;  
-}
-
-.blogItem p{
-    font-family: 'Source Code Pro', monospace;
-}
-
-.large_main{
-    height: 130vh;
-}
-
-
 /*  */
 .sidebargo{
     transform: translate(-400px,0px);
@@ -290,9 +267,14 @@
 
 /* connect */
 .link_container{
+    width: 80%;
+    margin: 2rem auto;
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    border: 1px solid gold;
+    border-radius: 1rem;
+    padding: 2rem;
 }
 
 .link_container a{
@@ -303,19 +285,18 @@
     text-decoration: none;
     padding:10px 30px;
     font-size: 25px;
+    color: white;
 }
 
 .link_container h2{
-    padding:40px 30px;
     font-size: 30px;
-}
-
-.link_container a:hover{
-    text-decoration: underline;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding: 1rem;
 }
 
 .link_container p{
-    font-size: 20px;
+    font-size: 22px;
     padding: 20px 30px;
 }
 
@@ -333,6 +314,7 @@
     position: fixed;
     z-index: 100;
 }
+
 
 
 @media (max-width: 1000px){
@@ -404,6 +386,14 @@
     .intro{
         margin-top: 30%;
     }
+
+    .link_container{
+        margin-top: 30%;
+    }
+
+    .contactform{
+        margin-top: 30%;
+    }
 }
 
 @media(max-width: 500px){
@@ -441,6 +431,14 @@
 
     .intro{
         width: 95%;
+        margin-top: 25%;
+    }
+
+    .link_container{
+        margin-top: 25%;
+    }
+
+    .contactform{
         margin-top: 25%;
     }
 }
