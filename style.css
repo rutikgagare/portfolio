@@ -53,7 +53,7 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    background-color: rgb(59, 41, 193);
+    background-color:rgb(59, 41, 193);;
 }
 
 /* sidebar for mobile view */
@@ -230,7 +230,7 @@
 
 #emailHelp{
     font-size: 12px;
-    color: rgb(70, 70, 209);
+    color: yellow;
     margin:0 5px;
     padding: 3px 0 0 0;
 }
