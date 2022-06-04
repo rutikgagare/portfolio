@@ -477,12 +477,24 @@
 @media(max-width: 500px){
     .infoContainer{
         width: 95%;
-        font-size: 14px;
     }
 
+    .hello{
+        font-size: 1.2em;
+        font-weight: lighter;
+        color:rgba(100,255,218,255);
+    }
+    
+    .name{
+        font-size: 2em ;
+    }
+    
     .about_{
-        font-size: 1.5em ;
-        margin: 1rem 0;
+        font-size: 1.3em ;
+    }
+    
+    .moreabout{
+        font-size: 1.4em;
     }
 
     .about{
