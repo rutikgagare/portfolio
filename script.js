@@ -18,23 +18,24 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
 var z = document.getElementById("btn");
 var p = document.getElementById("change_mode");
 
-
 // preloader
-var loader = document.getElementById("preloader");
-window.addEventListener("load",function(){
-    loader.style.display = 'none';
-})
-$(window).load(function() {
-    setTimeout(function(){ $('.loader').fadeOut('slow'); }, 3000);
- })
- 
+// var loader = document.getElementById("preloader");
+// window.addEventListener("load",function(){
+//     loader.style.display = 'none';
+// })
+
 // auto typing
 var typed = new Typed(".auto",{
     strings:["Web-Developer","Competitive Programmer"],
     typeSpeed:100,
     backSpeed:100,
     loop:true
-})
+});
+
+
+
+ 
+
 
 
 

@@ -10,20 +10,18 @@
 
 /* navbar */
 .navbar{
-    position: absolute;
+    position: sticky;
     top: 0;
     width: 100vw;
-    background-color: rgb(10, 86, 173);
+    background-color:rgb(6, 26, 56);
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: right;
-    /* background-color: rgb(41, 35, 60); */
     margin-bottom: 1rem;
-    /* position:fixed; */
 }
 
 .navbar nav{
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 .navbar nav ul{
@@ -33,7 +31,7 @@
 }
 
 .navbar nav ul li a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 0 1.2rem;
     text-decoration: none;
     font-weight: 400;
@@ -41,7 +39,7 @@
 }
 
 .navbar nav ul li a:hover{
-    border-bottom: 2px solid rgb(148, 148, 7);
+    color:rgba(100,255,218,255);
 }
 
 /* container */
@@ -51,9 +49,8 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    background-color:#0f263a;;
+    background-color:rgba(10,25,47,255);
 }
 
 /* sidebar for mobile view */
@@ -62,7 +59,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    background-color: rgb(10, 86, 173);
+    background-color: rgb(13, 111, 204);
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.3s ease-in;
@@ -84,13 +81,14 @@
     color: black;
 }
 
+
+/* Home Page */
+
 .infoContainer{
-    width: 80%;
-    margin: 2rem auto;
-    margin-top: 10%;
+    margin: 4rem 0;
+    width: 70%;
     display: flex;
     padding: 2rem;
-    border: 1px solid gold;
     border-radius: 1rem;
 }
 
@@ -101,102 +99,152 @@
 }
 
 .hello{
-    font-size: 2.8em;
+    font-size: 1.2em;
     font-weight: lighter;
+    color:rgba(100,255,218,255);
 }
 
 .name{
-    font-size: 2.5em ;
+    margin: 0.5em 0;
+    font-size: 4em ;
     font-family:'Fira Sans', sans-serif;
+    color:rgba(204,214,246,255);
 }
 
-.about_home{
-    font-size: 2.2em ;
-    margin: 0.8rem 0;
+.about_{
+    font-size: 1.8em ;
+    margin:0.2rem 0;
+    color:rgba(136,146,176,255);
 }
 
 .moreabout{
     font-size: 1.6em;
-    margin-top: 0.5rem;
-    font-family:'Fira Sans', sans-serif;
+    font-weight: bold;
+    margin: 1.2rem 0;
+    color:rgba(136,146,176,255);
 }
 
 .buttons{
-    margin-top:5rem;
+    margin:1.8rem 0;
 }
 
+
 .btn{
-    font-family:'Fira Sans', sans-serif;
-    font-size: 21px;
-    padding: 9px 17px;
-    background-color: dodgerblue;
-    color: white;
-    border-radius: 0.7rem;
-    margin: 0 3px;
+    font-size: 18px;
+    padding: 0.8rem 1rem;
+    background-color: transparent;
+    color:rgba(100,255,218,255);
+    border: 1px solid rgba(100,255,218,255);
+    border-radius: 0.2rem;
+    margin-right: 1.5rem;
     cursor: pointer;
 }
 
-.btn-sm{
-    font-size: 12px;
-    padding: 7px 19px;
-    margin: 12px 0;
-}
-
 .btn:hover{
-    background-color:white ;
-    color: dodgerblue;
+    background-color: rgb(35, 81, 77);
 }
 
-.devpic img{
-    height: 58vh;
+/* profile icons */
+
+.icons{
+    position: fixed;
+    left: 3rem;
+    bottom: 5rem;
+}
+
+.icons ul{
+    list-style-type: none;
+}
+
+.icons ul li{
+    padding: 1rem 0;
+}
+
+.icons i{
+    color:rgba(136,146,176,255);
+}
+
+.icons i:hover{
+    color: rgba(100,255,218,255);
 }
 
 /* about */
 .about{
-    width: 80%;
-    margin: 2rem auto;
-    margin-top: 10%;
-    padding: 1rem 2rem;
-    border: 1px solid gold;
-    border-radius: 1rem;
+    width: 70%;
+    padding: 2rem 0;
 }
 
 .about h2{
-    text-align: center;
     font-family:'Fira Sans', sans-serif;
-    border-bottom:2px solid grey;
-    padding: 1rem;
+    color:rgba(204,214,246,255);
+    font-weight: bold; 
     font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-.about p{
-    margin: 1rem 0;
-    font-size: 1.2rem;
+.about h2 span{
+    font-weight: lighter;
+    color: rgba(100,255,218,255);
+}
+
+
+.allabout{
+    display: flex;
+}
+
+/* .aboutInfo */
+.aboutInfo{
+    width: 60%;
+    margin: 0 2rem;
+}
+
+.aboutInfo p{
+    font-size: 1.4rem;
+    margin: 1.2rem 0;
+    color:rgba(136,146,176,255);
+}
+
+/* aboutImg */
+
+.aboutImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.aboutImg img{
+    height: 20rem;
+    background-color:rgb(78, 198, 170);
+    border-radius: 0.3rem;
 }
 
 /* skills */
 
 .skills{
-    width: 80%;
-    margin: 2rem auto;
-    margin-top: 10%;
-    padding: 1rem 2rem;
-    border: 1px solid gold;
-    border-radius: 1rem;
+    width: 70%;
+    padding: 2rem 0;
 }
 
 .skills h2{
-    text-align: center;
     font-family:'Fira Sans', sans-serif;
-    border-bottom:2px solid grey;
-    padding: 1rem 0rem;
+    color:rgba(204,214,246,255);
+    font-weight: bold; 
     font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills h2 span{
+    font-weight: lighter;
+    color: rgba(100,255,218,255);
 }
 
 .skills h3{
+    text-align: center;
     font-family:'Fira Sans', sans-serif;
-    padding:1rem 0rem;
     font-size: 1.3rem;
+    margin: 1rem 0;
+    color:rgba(204,214,246,255);
 }
 
 .skillsection{
@@ -207,9 +255,9 @@
 }
 
 .skill{
-    background-color: rgb(33, 103, 188);
     font-size: 1.3rem;
     padding: 1.3rem 2.5rem;
+    border: 1px solid  rgba(100,255,218,255);
     border-radius: 1rem;
     margin: 0.5rem 1rem;
     font-family:monospace;
@@ -218,7 +266,6 @@
 
 .skill:hover{
     transform: scale(104%);
-    background-color: rgb(124, 124, 4);
 }
 
 
@@ -338,12 +385,6 @@
     padding: 20px 30px;
 }
 
-
-.change:hover{
-    background-color:white ;
-    color: dodgerblue;
-}
-
 #preloader{
     background:#000 url("./Images/preloader2.gif") no-repeat center center;
     background-size: 20%;
@@ -435,11 +476,47 @@
 
 @media(max-width: 500px){
     .infoContainer{
-        margin-top: 25%;
         width: 95%;
         font-size: 14px;
-        /* border: none; */
     }
+
+    .about_{
+        font-size: 1.5em ;
+        margin: 1rem 0;
+    }
+
+    .about{
+        width: 95%;
+    }
+
+    .aboutInfo{
+        width: 100%;
+    }
+
+    .aboutImg{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+
+    .skills{
+        width: 95%;
+    }
+
+    .skillsection{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .skill i{
+        display: block;
+    }
+
+    .skills h2{
+        text-align: left;
+    }
+
     .navbar{
         display: none;
     }
@@ -459,28 +536,13 @@
         visibility: visible;
     }
 
-    .about{
-        width: 95%;
-        margin-top: 25%;
-    }
-
-    .skills{
-        width: 95%;
-        margin-top: 25%;
-    }
-
+    
     .link_container{
         width: 95%;
         margin-top: 30%;
     }
 
-    .skillsection{
-        grid-template-columns: repeat(1,1fr);
-    }
-
-    .skill i{
-        display: block;
-    }
+   
 
     .link_container{
         margin-top: 25%;
@@ -494,10 +556,7 @@
         padding: 1rem;
     }
 
-    .about_home{
-        font-size: 1.3em ;
-        margin: 1rem 0;
-    }
+    
 }
 
 
