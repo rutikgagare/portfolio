@@ -91,11 +91,10 @@
 /* Home Page */
 
 .infoContainer{
-    margin: 4rem 0;
     width: 70%;
     display: flex;
     padding: 2rem;
-    padding-top: 3rem;
+    padding-top: 8rem;
     border-radius: 1rem;
 }
 
@@ -443,7 +442,6 @@
 @media(max-width: 500px){
     .infoContainer{
         width: 95%;
-        margin-top: 2rem;
     }
 
     .hello{
@@ -458,7 +456,6 @@
     
     .about_{
         font-size: 1.1em ;
-        padding: 0 2rem;
     }
     
     .moreabout{
@@ -467,7 +464,6 @@
 
     .about{
         width: 95%;
-        margin: 2rem;
     }
 
     .about h2{
