@@ -214,6 +214,8 @@
     padding: 1.3rem 2.5rem;
     border-radius: 1rem;
     margin: 0.5rem;
+    font-family:monospace;
+    font-weight: 600;
 }
 
 .development{
@@ -229,6 +231,8 @@
     padding: 1.3rem 2.5rem;
     border-radius: 1rem;
     margin: 0.5rem;
+    font-family:monospace;
+    font-weight: 600;
 }
 
 
@@ -472,7 +476,7 @@
 
     .link_container{
         width: 95%;
-        margin-top: 25%;
+        margin-top: 30%;
     }
 
     .link_container{
