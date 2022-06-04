@@ -58,6 +58,7 @@
 .sidebar{
     top: 0;
     left: 0;
+    width: 240px;
     position: absolute;
     background-color:rgb(6, 26, 56);
     color: white;
@@ -73,7 +74,7 @@
 
 .sidebar nav li{
     list-style: none;
-    font-size: 18px;
+    font-size: 20px;
     padding: 20px 0;
 }
 
@@ -321,7 +322,6 @@
 
 .hamburger img{
     width: 23px;
-    /* filter: grayscale(1) invert(1); */
 }
 
 .hamburger{
@@ -333,7 +333,7 @@
 }
 
 .cross{
-    margin-left: 160px;
+    margin-left: 180px;
     margin-top: 10px;
     filter: grayscale(1) invert(1);
 }
