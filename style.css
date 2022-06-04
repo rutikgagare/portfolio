@@ -176,24 +176,61 @@
     font-size: 1.2rem;
 }
 
-.skillcontainer{
+/* skills */
+
+.skills{
+    width: 80%;
+    margin: 2rem auto;
+    margin-top: 10%;
+    padding: 1rem 2rem;
+    border: 1px solid gold;
+    border-radius: 1rem;
+}
+
+.skills h2{
+    text-align: center;
+    font-family:'Fira Sans', sans-serif;
+    border-bottom:2px solid grey;
+    padding: 1rem 0rem;
+    font-size: 1.5rem;
+}
+
+.skills h3{
+    font-family:'Fira Sans', sans-serif;
+    padding:1rem 0rem;
+    font-size: 1.3rem;
+}
+
+.programming{
     width: 60%;
     margin: auto;
     display: grid;
-    text-align: left;
-    grid-template-columns: repeat(2, 1fr);
-
+    grid-template-columns: repeat(2,1fr);
 }
 
-.skill{
-    padding: 0.2rem 0;
-    font-size: 18px;
-    font-family:'Fira Sans', sans-serif;
+.programming h4{
+    background-color: rgb(34, 6, 94);
+    font-size: 1.3rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
 }
 
-.skill span{
-    text-align: left;
+.development{
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
+
+.development h4{
+    background-color: rgb(34, 6, 94);
+    font-size: 1.3rem;
+    padding: 1.5rem 2.5rem;
+    border-radius: 1rem;
+    margin: 0.5rem;
+}
+
 
 /* Contact form */
 .contactform{
@@ -332,7 +369,7 @@
         display: none;
     }
 
-    .skillcontainer{
+    .development,.programming{
         text-align: center;
         grid-template-columns: repeat(1, 1fr);
     }
