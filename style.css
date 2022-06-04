@@ -110,7 +110,7 @@
     font-family:'Fira Sans', sans-serif;
 }
 
-.about{
+.about_home{
     font-size: 2.2em ;
     margin: 0.8rem 0;
 }
@@ -151,25 +151,25 @@
     height: 58vh;
 }
 
-/* Intro */
-.intro{
+/* about */
+.about{
     width: 80%;
     margin: 2rem auto;
     margin-top: 10%;
-    padding: 2rem;
+    padding: 1rem 2rem;
     border: 1px solid gold;
     border-radius: 1rem;
 }
 
-.intro h2{
+.about h2{
     text-align: center;
     font-family:'Fira Sans', sans-serif;
-    margin: 1rem 0;
     border-bottom:2px solid grey;
     padding: 1rem;
+    font-size: 1.5rem;
 }
 
-.intro p{
+.about p{
     font-family: 'Source Code Pro', monospace;
     font-weight: bold;
     margin: 1rem 0;
@@ -380,7 +380,7 @@
         margin-top: 30%;
     }
     
-    .intro{
+    .about{
         margin-top: 30%;
     }
 
@@ -419,7 +419,7 @@
         visibility: visible;
     }
 
-    .intro{
+    .about{
         width: 95%;
         margin-top: 25%;
     }
