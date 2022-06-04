@@ -201,38 +201,26 @@
     font-size: 1.3rem;
 }
 
-.programming{
+.skillsection{
     width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
 
-.programming h4{
+.skill{
     background-color: rgb(33, 103, 188);
     font-size: 1.3rem;
     padding: 1.3rem 2.5rem;
     border-radius: 1rem;
-    margin: 0.5rem;
+    margin: 0.5rem 1rem;
     font-family:monospace;
     font-weight: 600;
 }
 
-.development{
-    width: 80%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-
-.development h4{
-    background-color: rgb(33, 103, 188);
-    font-size: 1.3rem;
-    padding: 1.3rem 2.5rem;
-    border-radius: 1rem;
-    margin: 0.5rem;
-    font-family:monospace;
-    font-weight: 600;
+.skill:hover{
+    transform: scale(104%);
+    background-color: rgb(124, 124, 4);
 }
 
 
@@ -334,6 +322,10 @@
     padding:10px 30px;
     font-size: 25px;
     color: white;
+}
+
+.connect:hover{
+    color: rgb(165, 165, 4);
 }
 
 .link_container h2{
