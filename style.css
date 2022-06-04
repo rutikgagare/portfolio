@@ -345,7 +345,7 @@
 }
 
 #preloader{
-    background:#000 url("./Images/preloader3.gif") no-repeat center center;
+    background:#000 url("./Images/preloader2.gif") no-repeat center center;
     background-size: 20%;
     height: 100vh;
     width: 100%;
@@ -426,6 +426,11 @@
     .contactform{
         margin-top: 30%;
     }
+
+    .about_home{
+        font-size: 1.3em ;
+        margin: 1rem 0;
+    }
 }
 
 @media(max-width: 500px){
@@ -443,7 +448,7 @@
     }
 
     .btn{
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .hamburger{
@@ -487,6 +492,11 @@
         width: 95%;
         font-size: 12px;
         padding: 1rem;
+    }
+
+    .about_home{
+        font-size: 1.3em ;
+        margin: 1rem 0;
     }
 }
 

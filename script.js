@@ -27,7 +27,7 @@ window.addEventListener("load",function(){
 
 // auto typing
 var typed = new Typed(".auto",{
-    strings:["Developer","Programmer"],
+    strings:["Web-Developer","Competitive Programmer"],
     typeSpeed:100,
     backSpeed:100,
     loop:true
