@@ -95,6 +95,7 @@
     width: 70%;
     display: flex;
     padding: 2rem;
+    padding-top: 3rem;
     border-radius: 1rem;
 }
 
@@ -185,7 +186,8 @@
     color:rgba(204,214,246,255);
     font-weight: bold; 
     font-size: 1.5rem;
-    margin-bottom: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 3rem;
 }
 
 .about h2 span{
@@ -409,15 +411,19 @@
     }
 
     .infoContainer{
-        margin-top: 30%;
+        margin: 2rem 0;
     }
     
     .about{
-        margin-top: 30%;
+        margin: 2rem 0;
     }
 
     .aboutInfo{
         width: 100%;
+    }
+
+    .about_{
+        font-size: 1.5em ;
     }
 
     .aboutImg{
@@ -428,26 +434,16 @@
         display: none;
     }
 
-    .skills{
-        margin-top: 30%;
-    }
-
     .skillsection{
         grid-template-columns: repeat(1,1fr);
     }
 
-    .link_container{
-        margin-top: 30%;
-    }
-
-    .contactform{
-        margin-top: 30%;
-    }
 }
 
 @media(max-width: 500px){
     .infoContainer{
         width: 95%;
+        margin-top: 2rem;
     }
 
     .hello{
@@ -470,6 +466,7 @@
 
     .about{
         width: 95%;
+        margin: 2rem;
     }
 
     .aboutInfo{
