@@ -471,6 +471,10 @@
         margin-top: 30%;
     }
 
+    .skillsection{
+        grid-template-columns: repeat(1,1fr);
+    }
+
     .link_container{
         margin-top: 25%;
         width: 95%;
