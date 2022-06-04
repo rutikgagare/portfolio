@@ -202,7 +202,7 @@
 }
 
 .programming{
-    width: 60%;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -217,7 +217,7 @@
 }
 
 .development{
-    width: 60%;
+    width: 80%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2,1fr);
