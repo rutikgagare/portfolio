@@ -24,7 +24,10 @@ var loader = document.getElementById("preloader");
 window.addEventListener("load",function(){
     loader.style.display = 'none';
 })
-
+$(window).load(function() {
+    setTimeout(function(){ $('.loader').fadeOut('slow'); }, 3000);
+ })
+ 
 // auto typing
 var typed = new Typed(".auto",{
     strings:["Web-Developer","Competitive Programmer"],
