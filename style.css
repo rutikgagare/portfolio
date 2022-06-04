@@ -458,6 +458,7 @@
     
     .about_{
         font-size: 1.1em ;
+        padding: 0 2rem;
     }
     
     .moreabout{
@@ -467,6 +468,10 @@
     .about{
         width: 95%;
         margin: 2rem;
+    }
+
+    .about h2{
+        margin: 1rem;
     }
 
     .aboutInfo{
