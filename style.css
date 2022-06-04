@@ -421,6 +421,10 @@
         margin-top: 30%;
     }
 
+    .skills{
+        margin-top: 30%;
+    }
+
     .link_container{
         margin-top: 30%;
     }
@@ -457,6 +461,16 @@
     }
 
     .about{
+        width: 95%;
+        margin-top: 25%;
+    }
+
+    .skills{
+        width: 95%;
+        margin-top: 25%;
+    }
+
+    .link_container{
         width: 95%;
         margin-top: 25%;
     }
