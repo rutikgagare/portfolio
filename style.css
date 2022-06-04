@@ -13,7 +13,7 @@
     position: absolute;
     top: 0;
     width: 100vw;
-    background-color: rgb(15, 110, 218);
+    background-color: rgb(10, 86, 173);
     font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: right;
@@ -53,7 +53,7 @@
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
-    background-color:rgb(59, 41, 193);;
+    background-color:#0f263a;;
 }
 
 /* sidebar for mobile view */
@@ -62,7 +62,7 @@
     top: 0;
     left: 0;
     position: absolute;
-    background-color: rgb(15, 110, 218);
+    background-color: rgb(10, 86, 173);
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.3s ease-in;
@@ -209,7 +209,7 @@
 }
 
 .programming h4{
-    background-color: rgb(34, 6, 94);
+    background-color: rgb(33, 103, 188);
     font-size: 1.3rem;
     padding: 1.3rem 2.5rem;
     border-radius: 1rem;
@@ -224,7 +224,7 @@
 }
 
 .development h4{
-    background-color: rgb(34, 6, 94);
+    background-color: rgb(33, 103, 188);
     font-size: 1.3rem;
     padding: 1.3rem 2.5rem;
     border-radius: 1rem;
