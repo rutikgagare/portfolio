@@ -63,7 +63,7 @@
     left: 0;
     position: absolute;
     background-color: rgb(15, 110, 218);
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.3s ease-in;
     visibility: hidden;
