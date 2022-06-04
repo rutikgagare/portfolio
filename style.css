@@ -475,6 +475,10 @@
         grid-template-columns: repeat(1,1fr);
     }
 
+    .skill i{
+        display: block;
+    }
+
     .link_container{
         margin-top: 25%;
         width: 95%;
