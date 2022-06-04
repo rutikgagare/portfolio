@@ -59,7 +59,8 @@
     top: 0;
     left: 0;
     position: absolute;
-    background-color: rgb(13, 111, 204);
+    background-color:rgb(6, 26, 56);
+    color: white;
     min-height: 100vh;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.3s ease-in;
@@ -72,13 +73,17 @@
 
 .sidebar nav li{
     list-style: none;
-    font-size: 22px;
+    font-size: 18px;
     padding: 20px 0;
 }
 
 .sidebar nav li a{
     text-decoration: none;
-    color: black;
+    color:rgba(204,214,246,255);
+}
+
+.sidebar nav li a:hover{
+    color:rgba(100,255,218,255);;
 }
 
 
@@ -262,60 +267,50 @@
     margin: 0.5rem 1rem;
     font-family:monospace;
     font-weight: 600;
+    color:rgba(204,214,246,255);
 }
 
 .skill:hover{
     transform: scale(104%);
 }
 
-
-/* Contact form */
-.contactform{
-    margin: 0px auto;
+/* connect */
+.connectme{
     width: 70%;
+    padding: 2rem 0;
+}
+
+.connectme h2{
     font-family:'Fira Sans', sans-serif;
-    padding: 2rem;
-    margin-top: 10%;
-    border: 1px solid gold;
-    border-radius: 1rem;
+    color:rgba(204,214,246,255);
+    font-weight: bold; 
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-.contactform h1{
-    font-family: 'Source Code Pro', monospace;
+.connect h2 span{
+    font-weight: lighter;
+    color: rgba(100,255,218,255);
 }
 
-.contactform form div{
-    padding: 10px 0;
-    display: flex;
-    flex-direction: column;
+.link a{
+    text-decoration: none;
 }
 
-.contactform form div input{
-    width: 26vw;
-    border-radius: 5px;
-    margin: 6px 0 0 0;
-    padding: 3px;
+.connect{
+    text-decoration: none;
+    padding:10px 30px;
+    font-size: 25px;
+    color: white;
 }
 
-.con{
-    width: 90%;
-    min-width: 220px;
+.connect:hover{
+    color: rgba(100,255,218,255);
 }
 
-#emailHelp{
-    font-size: 12px;
-    color: yellow;
-    margin:0 5px;
-    padding: 3px 0 0 0;
-}
-
-#form-check{
-    flex-direction: row;
-}
-
-#form-check input{
-    width: 24px;
-    margin: 3px 0;
+.link p{
+    font-size: 22px;
+    padding: 20px 30px;
 }
 
 /*  */
@@ -340,50 +335,13 @@
 .cross{
     margin-left: 160px;
     margin-top: 10px;
+    filter: grayscale(1) invert(1);
 }
 
 .ham{
     margin-top: 10px;
 }
 
-/* connect */
-.link_container{
-    width: 80%;
-    margin: 2rem auto;
-    margin-top: 10%;
-    display: flex;
-    flex-direction: column;
-    border: 1px solid gold;
-    border-radius: 1rem;
-    padding: 2rem;
-}
-
-.link_container a{
-    text-decoration: none;
-}
-
-.connect{
-    text-decoration: none;
-    padding:10px 30px;
-    font-size: 25px;
-    color: white;
-}
-
-.connect:hover{
-    color: rgb(165, 165, 4);
-}
-
-.link_container h2{
-    font-size: 30px;
-    text-align: center;
-    border-bottom: 1px solid grey;
-    padding: 1rem;
-}
-
-.link_container p{
-    font-size: 22px;
-    padding: 20px 30px;
-}
 
 #preloader{
     background:#000 url("./Images/preloader2.gif") no-repeat center center;
@@ -420,7 +378,6 @@
     .sidebar{
         visibility: visible;
     }
-
 }
 
 @media (max-width: 800px){
@@ -432,8 +389,11 @@
     }
 
     .skillcontainer{
-        text-align: center;
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .skillsection{
+        margin: auto;
     }
 
     .btn{
@@ -456,8 +416,24 @@
         margin-top: 30%;
     }
 
+    .aboutInfo{
+        width: 100%;
+    }
+
+    .aboutImg{
+        display: none;
+    }
+
+    .icons{
+        display: none;
+    }
+
     .skills{
         margin-top: 30%;
+    }
+
+    .skillsection{
+        grid-template-columns: repeat(1,1fr);
     }
 
     .link_container{
@@ -466,11 +442,6 @@
 
     .contactform{
         margin-top: 30%;
-    }
-
-    .about_home{
-        font-size: 1.3em ;
-        margin: 1rem 0;
     }
 }
 
@@ -521,12 +492,12 @@
         grid-template-columns: repeat(1,1fr);
     }
 
-    .skill i{
-        display: block;
+    .skill{
+        text-align: center;
     }
 
-    .skills h2{
-        text-align: left;
+    .skill i{
+        display: block;
     }
 
     .navbar{

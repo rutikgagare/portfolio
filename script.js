@@ -18,11 +18,11 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
 var z = document.getElementById("btn");
 var p = document.getElementById("change_mode");
 
-// preloader
-// var loader = document.getElementById("preloader");
-// window.addEventListener("load",function(){
-//     loader.style.display = 'none';
-// })
+preloader
+var loader = document.getElementById("preloader");
+window.addEventListener("load",function(){
+    loader.style.display = 'none';
+})
 
 // auto typing
 var typed = new Typed(".auto",{
