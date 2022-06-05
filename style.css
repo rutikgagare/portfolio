@@ -526,11 +526,12 @@ footer p{
     }
 
     .about h2{
-        margin: 1rem;
+        margin: 1rem 0;
+
     }
 
     .skills h2{
-        margin: 1rem;
+        margin: 1rem 0;
     }
 
 }
