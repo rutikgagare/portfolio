@@ -308,7 +308,7 @@ a:hover{
     padding: 0 2rem;
 }
 
-.contact h1{
+.contactsection h1{
     font-family:'Fira Sans', sans-serif;
     color:rgba(204,214,246,255);
     font-weight: bold; 
@@ -620,6 +620,14 @@ footer p{
     .contacticons{
         margin: 2rem;
         display: block;
+    }
+
+    .contactsection h1{
+        font-size: 1rem;
+    }
+
+    .contacticons p{
+        font-size: 1.2em;
     }
 }
 
