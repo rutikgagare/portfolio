@@ -8,6 +8,15 @@
     box-sizing: border-box;
 }
 
+a{
+    color:rgba(136,146,176,255);
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgba(100,255,218,255);
+}
+
 /* navbar */
 .navbar{
     position: sticky;
@@ -155,7 +164,7 @@
 .icons{
     position: fixed;
     left: 3rem;
-    bottom: 5rem;
+    bottom: 0rem;
 }
 
 .icons ul{
@@ -174,10 +183,24 @@
     color: rgba(100,255,218,255);
 }
 
+.icons .vl{
+    border-left: 2px solid rgba(136,146,176,255);
+    height: 100px;
+}
+
+/* email */
+.email{
+    position: fixed;
+    right: -4rem;
+    bottom: 10rem;
+    font-size: 1.2rem;
+    transform: rotate(90deg);
+}
 /* about */
 .about{
     width: 70%;
-    padding: 2rem 0;
+    margin: 2rem 0;
+    padding: 0 2rem;
 }
 
 .about h2{
@@ -230,7 +253,8 @@
 
 .skills{
     width: 70%;
-    padding: 2rem 0;
+    margin: 2rem 0;
+    padding: 0 2rem;
 }
 
 .skills h2{
@@ -239,6 +263,7 @@
     font-weight: bold; 
     font-size: 1.5rem;
     margin-bottom: 2rem;
+    margin-top: 8rem;
 }
 
 .skills h2 span{
@@ -277,43 +302,41 @@
 }
 
 /* connect */
-.connectme{
+.contact{
     width: 70%;
-    padding: 2rem 0;
+    margin: 3rem 0;
+    padding: 0 2rem;
 }
 
-.connectme h2{
+.contact h1{
     font-family:'Fira Sans', sans-serif;
     color:rgba(204,214,246,255);
     font-weight: bold; 
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+    font-size: 2rem;
+    margin: 2rem;
 }
 
-.connect h2 span{
+.contact h2 span{
     font-weight: lighter;
     color: rgba(100,255,218,255);
 }
 
-.link a{
-    text-decoration: none;
+.contactsection{
+    width: 80%;
+    text-align: center;
+    margin: auto;
 }
 
-.connect{
-    text-decoration: none;
-    padding:10px 30px;
-    font-size: 25px;
-    color: white;
+.contactsection p{
+    font-size: 1.6em;
+    margin: 1.2rem 0;
+    color:rgba(136,146,176,255);
 }
 
-.connect:hover{
-    color: rgba(100,255,218,255);
+.contactsection h2{
+    font-size: 4rem;
 }
 
-.link p{
-    font-size: 22px;
-    padding: 20px 30px;
-}
 
 /*  */
 .sidebargo{
@@ -353,6 +376,33 @@
     z-index: 100;
 }
 
+.contacticons{
+    margin: 2rem;
+    display: none;
+}
+
+.contacticons ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contacticons ul li{
+    padding: 0 1rem;
+}
+
+.contacticons i{
+    color:rgba(136,146,176,255);
+}
+
+.contacticons i:hover{
+    color: rgba(100,255,218,255);
+}
+
+footer p{
+    padding: 2rem 0;
+}
+
 
 
 @media (max-width: 1000px){
@@ -378,6 +428,14 @@
 
     .sidebar{
         visibility: visible;
+    }
+
+    .aboutInfo{
+        width: 100%;
+    }
+
+    .aboutImg{
+        display: none;
     }
 }
 
@@ -433,8 +491,33 @@
         display: none;
     }
 
+    .email{
+        display: none;
+    }
+
+    .contact{
+        width: 95%;
+    }
+
+    .skill{
+        width: 95%;
+    }
+
     .skillsection{
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .contacticons{
+        margin: 2rem;
+        display: block;
+    }
+
+    .about h2{
+        margin: 1rem;
+    }
+
+    .skills h2{
+        margin: 1rem;
     }
 
 }
@@ -470,6 +553,10 @@
         margin: 1rem;
     }
 
+    .skills h2{
+        margin: 1rem;
+    }
+
     .aboutInfo{
         width: 100%;
     }
@@ -482,8 +569,21 @@
         display: none;
     }
 
+    .email{
+        display: none;
+    }
+
     .skills{
         width: 95%;
+    }
+
+    .contact{
+        width: 95%;
+    }
+
+    .conacticon{
+        position: relative;
+        display: flex;
     }
 
     .skillsection{
@@ -516,28 +616,11 @@
     .sidebar{
         visibility: visible;
     }
-
     
-    .link_container{
-        width: 95%;
-        margin-top: 30%;
+    .contacticons{
+        margin: 2rem;
+        display: block;
     }
-
-   
-
-    .link_container{
-        margin-top: 25%;
-        width: 95%;
-    }
-
-    .contactform{
-        margin-top: 25%;
-        width: 95%;
-        font-size: 12px;
-        padding: 1rem;
-    }
-
-    
 }
 
 
