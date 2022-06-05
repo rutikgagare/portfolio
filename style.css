@@ -482,7 +482,6 @@ footer p{
     
     .about{
         width: 95%;
-        border: 2px solid red;
         margin: 2rem 0;
     }
 
@@ -566,8 +565,7 @@ footer p{
     }
 
     .about h2{
-        margin: 1rem 0
-;
+        margin: 1rem 0;
     }
 
     .skills{
@@ -575,7 +573,7 @@ footer p{
     }
 
     .skills h2{
-        margin: 1rem;
+        margin: 1rem 0;
     }
 
     .aboutInfo{
@@ -602,6 +600,10 @@ footer p{
         width: 95%;
     }
 
+    .contact h2{
+        margin: 1ren 0;
+     }
+
     .conacticon{
         position: relative;
         display: flex;
@@ -621,9 +623,6 @@ footer p{
     }
 
     .navbar{
-        display: none;
-    }
-    .devpic{
         display: none;
     }
 
