@@ -313,8 +313,7 @@ a:hover{
     color:rgba(204,214,246,255);
     font-weight: bold; 
     font-size: 1.5rem;
-    margin-bottom: 2rem;
-    margin-top: 8rem;
+    margin: 2rem;
 }
 
 .contact h2 span{
@@ -565,6 +564,10 @@ footer p{
 
     .about h2{
         margin: 1rem;
+    }
+
+    .skills{
+        margin: 1rem 0;
     }
 
     .skills h2{
