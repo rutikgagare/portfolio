@@ -629,6 +629,10 @@ footer p{
     .contactsection p{
         font-size: 1.2rem;
     }
+
+    .aboutInfo p{
+        font-size: 1.1rem;
+    }
 }
 
 
