@@ -481,6 +481,8 @@ footer p{
     }
     
     .about{
+        width: 95%;
+        border: 2px solid red;
         margin: 2rem 0;
     }
 
