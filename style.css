@@ -328,7 +328,7 @@ a:hover{
 }
 
 .contactsection p{
-    font-size: 1.6em;
+    font-size: 1.6rem;
     margin: 1.2rem 0;
     color:rgba(136,146,176,255);
 }
@@ -623,11 +623,11 @@ footer p{
     }
 
     .contactsection h1{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .contacticons p{
-        font-size: 1.2em;
+        font-size: 1.2rem;
     }
 }
 
