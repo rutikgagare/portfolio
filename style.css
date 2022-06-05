@@ -308,12 +308,13 @@ a:hover{
     padding: 0 2rem;
 }
 
-.contactsection h1{
+.contact h2{
     font-family:'Fira Sans', sans-serif;
     color:rgba(204,214,246,255);
     font-weight: bold; 
-    font-size: 2rem;
-    margin: 2rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
 }
 
 .contact h2 span{
@@ -325,6 +326,14 @@ a:hover{
     width: 80%;
     text-align: center;
     margin: auto;
+}
+
+.contactsection h1{
+    font-family:'Fira Sans', sans-serif;
+    color:rgba(204,214,246,255);
+    font-weight: bold; 
+    font-size: 2rem;
+    margin: 2rem;
 }
 
 .contactsection p{
@@ -401,6 +410,7 @@ a:hover{
 
 footer p{
     padding: 2rem 0;
+    color:rgba(136,146,176,255);
 }
 
 
@@ -499,8 +509,12 @@ footer p{
         width: 95%;
     }
 
-    .skill{
+    .skills{
         width: 95%;
+    }
+
+    .skill{
+        margin: 1rem 0;
     }
 
     .skillsection{
@@ -592,6 +606,7 @@ footer p{
 
     .skill{
         text-align: center;
+        margin: 1rem 0;
     }
 
     .skill i{
