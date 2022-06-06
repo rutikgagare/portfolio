@@ -531,12 +531,22 @@ footer p{
         display: block;
     }
 
+<<<<<<< HEAD
     .icons{
         display: none;
     }
 
     .email{
         display: none;
+=======
+    .about h2{
+        margin: 1rem 0;
+
+    }
+
+    .skills h2{
+        margin: 1rem 0;
+>>>>>>> 7b47dd300cff977aa32e75cc7bffb1b201f06a87
     }
 
 }
@@ -572,8 +582,21 @@ footer p{
         width: 95%;
     }
 
+<<<<<<< HEAD
     .aboutImg{
         display: none;
+=======
+    .about h2{
+        margin: 1rem 0;
+    }
+
+    .skills{
+        margin: 1rem 0;
+    }
+
+    .skills h2{
+        margin: 1rem 0;
+>>>>>>> 7b47dd300cff977aa32e75cc7bffb1b201f06a87
     }
 
     .aboutInfo{
@@ -594,8 +617,22 @@ footer p{
         width: 95%;
     }
 
+<<<<<<< HEAD
     .skills h2{
         margin: 1rem 0;
+=======
+    .contact{
+        width: 95%;
+    }
+
+    .contact h2{
+        margin: 1ren 0;
+     }
+
+    .conacticon{
+        position: relative;
+        display: flex;
+>>>>>>> 7b47dd300cff977aa32e75cc7bffb1b201f06a87
     }
 
     .skillsection{
@@ -641,9 +678,6 @@ footer p{
 
    
     .navbar{
-        display: none;
-    }
-    .devpic{
         display: none;
     }
 
