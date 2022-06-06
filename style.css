@@ -104,7 +104,6 @@ a:hover{
     display: flex;
     padding: 2rem;
     padding-top: 8rem;
-    border-radius: 1rem;
 }
 
 .devinfo{
@@ -313,7 +312,7 @@ a:hover{
     color:rgba(204,214,246,255);
     font-weight: bold; 
     font-size: 1.5rem;
-    margin: 2rem;
+    margin: 2rem 0;
 }
 
 .contact h2 span{
@@ -452,6 +451,7 @@ footer p{
     .navbar{
         display: none;
     }
+
     .devpic{
         display: none;
     }
@@ -477,39 +477,36 @@ footer p{
     }
 
     .infoContainer{
+        width: 95%;
         margin: 2rem 0;
     }
     
     .about{
+        width: 95%;
         margin: 2rem 0;
+        font-size: 1.5em ;
+    }
+
+    .about h2{
+        margin: 1rem 0;
     }
 
     .aboutInfo{
         width: 100%;
     }
 
-    .about_{
-        font-size: 1.5em ;
-    }
-
     .aboutImg{
         display: none;
     }
 
-    .icons{
-        display: none;
-    }
-
-    .email{
-        display: none;
-    }
-
-    .contact{
-        width: 95%;
-    }
 
     .skills{
         width: 95%;
+        margin: 2rem 0; 
+    }
+
+    .skills h2{
+        margin: 1rem 0;
     }
 
     .skill{
@@ -520,22 +517,33 @@ footer p{
         grid-template-columns: repeat(1,1fr);
     }
 
+    .contact{
+        width: 95%;
+        margin: 2rem 0;
+    }
+
+    .contact h2{
+        margin: 1rem 0;
+    }
+
     .contacticons{
         margin: 2rem;
         display: block;
     }
 
-    .about h2{
-        margin: 1rem;
+    .icons{
+        display: none;
     }
 
-    .skills h2{
-        margin: 1rem;
+    .email{
+        display: none;
     }
 
 }
 
 @media(max-width: 500px){
+    /* home */
+
     .infoContainer{
         width: 95%;
     }
@@ -558,49 +566,36 @@ footer p{
         font-size: 1.4em;
     }
 
+    /* skill */
+
     .about{
         width: 95%;
-    }
-
-    .about h2{
-        margin: 1rem;
-    }
-
-    .skills{
-        margin: 1rem 0;
-    }
-
-    .skills h2{
-        margin: 1rem;
-    }
-
-    .aboutInfo{
-        width: 100%;
     }
 
     .aboutImg{
         display: none;
     }
 
-    .icons{
-        display: none;
+    .aboutInfo{
+        width: 100%;
     }
 
-    .email{
-        display: none;
+    .aboutInfo p{
+        font-size: 1.2rem;
     }
+
+    .about h2{
+        margin: 1rem 0;
+    }
+
+    /* skill */
 
     .skills{
         width: 95%;
     }
 
-    .contact{
-        width: 95%;
-    }
-
-    .conacticon{
-        position: relative;
-        display: flex;
+    .skills h2{
+        margin: 1rem 0;
     }
 
     .skillsection{
@@ -616,6 +611,35 @@ footer p{
         display: block;
     }
 
+    /* contact */
+
+    .contact{
+        width: 95%;
+    }
+
+    .contact h2{
+        margin: 1rem 0;
+    }
+
+    .contactsection h1{
+        font-size: 1.5rem;
+    }
+
+    .contactsection p{
+        font-size: 1.2rem;
+    }
+
+    /* general */
+
+    .icons{
+        display: none;
+    }
+
+    .email{
+        display: none;
+    }
+
+   
     .navbar{
         display: none;
     }
@@ -635,22 +659,7 @@ footer p{
         visibility: visible;
     }
     
-    .contacticons{
-        margin: 2rem;
-        display: block;
-    }
 
-    .contactsection h1{
-        font-size: 1.5rem;
-    }
-
-    .contactsection p{
-        font-size: 1.2rem;
-    }
-
-    .aboutInfo p{
-        font-size: 1.1rem;
-    }
 }
 
 
