@@ -128,14 +128,17 @@ a:hover{
 .about_{
     font-size: 1.8em ;
     margin:0.2rem 0;
-    color:rgba(136,146,176,255);
+    /* color:rgba(136,146,176,255); */
+    color: rgb(195, 197, 199);
 }
 
 .moreabout{
     font-size: 1.6em;
     font-weight: bold;
     margin: 1.2rem 0;
-    color:rgba(136,146,176,255);
+    /* color:rgba(136,146,176,255); */
+    color: rgb(195, 197, 199);
+
 }
 
 .buttons{
@@ -231,8 +234,8 @@ a:hover{
     font-size: 1.4rem;
     margin: 1.2rem 0;
     color:rgba(136,146,176,255);
-    font-family:cursive;
-    /* color: red; */
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(195, 197, 199);
 }
 
 /* aboutImg */
@@ -339,7 +342,9 @@ a:hover{
 .contactsection p{
     font-size: 1.6rem;
     margin: 1.2rem 0;
-    color:rgba(136,146,176,255);
+    /* color:rgba(136,146,176,255); */
+    color: rgb(195, 197, 199);
+
 }
 
 .contactsection h2{
