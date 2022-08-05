@@ -576,9 +576,8 @@ footer p{
         margin: 2rem 0; 
     }
 
-    .projects{
-        width: 95%;
-        margin: 2rem 0; 
+    .projects h2{
+        margin: 1rem 0;
     }
 
     .skills h2{
@@ -664,9 +663,9 @@ footer p{
         margin: 1rem 0;
     }
 
-    .projects{
-        width: 95%;
-        margin: 2rem 0; 
+    /* projects */
+    .projects h2{
+        margin: 1rem 0;
     }
 
     /* skill */
