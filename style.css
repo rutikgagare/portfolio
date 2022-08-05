@@ -692,7 +692,8 @@ footer p{
 
     .btn1{
         font-size: 15px;
-        padding: 0.8rem 1rem;
+        padding: 0.8rem;
+        margin: 0.8rem;
     }
 
     /* skill */
