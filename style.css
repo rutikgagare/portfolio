@@ -366,6 +366,23 @@ a:hover{
     font-family:'Fira Sans', sans-serif;
     color: white;
     font-size: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem 0;
+}
+
+.gitandlink{
+    bottom: 1rem;
+}
+
+.btn1{
+    font-size: 15px;
+    padding: 0.8rem;
+    background-color: transparent;
+    color:rgba(100,255,218,255);
+    border: 1px solid rgba(100,255,218,255);
+    border-radius: 0.2rem;
+    margin: 1rem;
+    cursor: pointer;
 }
 
 
