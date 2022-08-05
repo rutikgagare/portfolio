@@ -305,6 +305,69 @@ a:hover{
     transform: scale(104%);
 }
 
+
+/* projects */
+.projects{
+    width: 70%;
+    margin: 2rem 0;
+    padding: 0 2rem;
+    /* border: 2px solid red; */
+}
+
+.projects h2{
+    font-family:'Fira Sans', sans-serif;
+    color:rgba(204,214,246,255);
+    font-weight: bold; 
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}
+
+.projects h2 span{
+    font-weight: lighter;
+    color: rgba(100,255,218,255);
+}
+
+.project_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding:0.5rem;
+    /* border: 2px solid blue; */
+}
+
+.project{
+    border-radius: 1rem;
+    border: 2px solid rgba(100,255,218,255);;
+    color:black;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+.project img{
+    width: 200px;
+    height: 200px;
+}
+
+.project h3{
+    font-family:'Fira Sans', sans-serif;
+    color:rgba(204,214,246,255);
+    font-weight: bold; 
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.project p{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
 /* connect */
 .contact{
     width: 70%;
