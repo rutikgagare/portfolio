@@ -225,7 +225,7 @@ a:hover{
 
 /* .aboutInfo */
 .aboutInfo{
-    width: 80%;
+    width: 90%;
     margin: 0 2rem;
 }
 
@@ -308,7 +308,7 @@ a:hover{
 
 /* projects */
 .projects{
-    width: 70%;
+    width: 85%;
     margin: 2rem 0;
     padding: 0 2rem;
     /* border: 2px solid red; */
@@ -351,7 +351,7 @@ a:hover{
 
 .project img{
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .project h3{
@@ -363,6 +363,7 @@ a:hover{
 }
 
 .project p{
+    font-family:'Fira Sans', sans-serif;
     color: white;
     font-size: 1rem;
 }
@@ -575,6 +576,11 @@ footer p{
         margin: 2rem 0; 
     }
 
+    .projects{
+        width: 95%;
+        margin: 2rem 0; 
+    }
+
     .skills h2{
         margin: 1rem 0;
     }
@@ -656,6 +662,11 @@ footer p{
 
     .about h2{
         margin: 1rem 0;
+    }
+
+    .projects{
+        width: 95%;
+        margin: 2rem 0; 
     }
 
     /* skill */
