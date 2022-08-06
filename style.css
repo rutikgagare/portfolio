@@ -350,7 +350,7 @@ a:hover{
 
 .project img{
     width: 200px;
-    /* height: 200px; */
+    height: 340px;
 }
 
 .project h3{
@@ -365,8 +365,8 @@ a:hover{
     font-family:'Fira Sans', sans-serif;
     color: white;
     font-size: 1rem;
-    margin-bottom: 1rem;
-    padding: 1rem 0;
+    margin-bottom: 0.2rem;
+    padding: 0.5rem 0;
 }
 
 .gitandlink{
@@ -375,7 +375,7 @@ a:hover{
 
 .btn1{
     font-size: 15px;
-    padding: 0.8rem 1.3rem;
+    padding: 0.4rem 1.3rem;
     background-color: transparent;
     border: 1px solid white;
     border-radius: 0.2rem;
@@ -385,7 +385,7 @@ a:hover{
 }
 
 .btn1:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .btn1 a{
