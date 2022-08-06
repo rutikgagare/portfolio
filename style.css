@@ -226,7 +226,7 @@ a:hover{
 /* .aboutInfo */
 .aboutInfo{
     width: 90%;
-    border: 2px solid white;
+    border: 1px solid rgba(100,255,218,255);
     border-radius: 1rem;
     padding: 1rem;
 }
@@ -295,7 +295,7 @@ a:hover{
 .skill{
     font-size: 1.3rem;
     padding: 0.9rem 2.5rem;
-    border: 1px solid  rgba(100,255,218,255);
+    border: 1px solid rgba(100,255,218,255);
     border-radius: 1rem;
     margin: 0.5rem 1rem;
     font-family:monospace;
@@ -313,7 +313,6 @@ a:hover{
     width: 85%;
     margin: 2rem 0;
     padding: 0 2rem;
-    /* border: 2px solid red; */
 }
 
 .projects h2{
