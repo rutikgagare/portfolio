@@ -349,8 +349,9 @@ a:hover{
 }
 
 .project img{
-    width: 220px;
-    height: 320px;
+    width: 230px;
+    height: 360px;
+    border-radius: 1rem;
 }
 
 .project h3{
@@ -690,6 +691,11 @@ footer p{
     }
 
     /* projects */
+
+    .projects{
+        width: 95%;
+    }
+    
     .projects h2{
         margin: 1rem 0;
     }
