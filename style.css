@@ -291,7 +291,7 @@ a:hover{
 
 .skill{
     font-size: 1.3rem;
-    padding: 1.3rem 2.5rem;
+    padding: 0.9rem 2.5rem;
     border: 1px solid  rgba(100,255,218,255);
     border-radius: 1rem;
     margin: 0.5rem 1rem;
@@ -695,7 +695,7 @@ footer p{
     .projects{
         width: 95%;
     }
-    
+
     .projects h2{
         margin: 1rem 0;
     }
