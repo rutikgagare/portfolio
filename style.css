@@ -384,6 +384,10 @@ a:hover{
     background-color: white;
 }
 
+.btn1:hover{
+    transform: scale(1.2);
+}
+
 .btn1 a{
     color:black;
     text-decoration: none;
@@ -666,7 +670,7 @@ footer p{
 
     .about{
         width: 95%;
-        padding: 0rem;
+        padding: 0.8rem;
     }
 
     .aboutImg{
