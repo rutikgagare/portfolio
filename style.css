@@ -226,6 +226,9 @@ a:hover{
 /* .aboutInfo */
 .aboutInfo{
     width: 90%;
+    border: 2px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
 }
 
 .aboutInfo p{
@@ -723,10 +726,6 @@ footer p{
     .skill{
         text-align: center;
         margin: 1rem 0;
-    }
-
-    .skill i{
-        /* display: block; */
     }
 
     /* contact */
