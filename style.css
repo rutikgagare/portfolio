@@ -19,9 +19,9 @@ a:hover{
 
 /* navbar */
 .navbar{
+    width: 100vw;
     position: sticky;
     top: 0;
-    width: 100vw;
     background-color:rgb(6, 26, 56);
     font-family: 'Poppins', sans-serif;
     display: flex;
@@ -103,7 +103,7 @@ a:hover{
     width: 70%;
     display: flex;
     padding: 2rem;
-    padding-top: 8rem;
+    padding-top: 5.5rem;
 }
 
 .devinfo{
@@ -133,7 +133,7 @@ a:hover{
 }
 
 .moreabout{
-    font-size: 1.6em;
+    font-size: 1.4em;
     font-weight: bold;
     margin: 1.2rem 0;
     /* color:rgba(136,146,176,255); */
@@ -474,8 +474,8 @@ a:hover{
 
 
 #preloader{
-    background:#000 url("./Images/preloader2.gif") no-repeat center center;
-    background-size: 20%;
+    background:#000 url("./Images/Bean\ Eater-1s-200px.png") no-repeat center center;
+    background-size: 10%;
     height: 100vh;
     width: 100%;
     position: fixed;
