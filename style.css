@@ -456,10 +456,10 @@ a:hover{
 
 .hamburger{
     width: 100%;
-    display: flex;
-    padding: 0.5rem 1rem;
-    justify-content: space-between;
     position: sticky;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
     cursor: pointer;
     top: 0;
     visibility: hidden;
