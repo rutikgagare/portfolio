@@ -20,7 +20,7 @@ a:hover{
 /* navbar */
 .navbar{
     width: 100vw;
-    position: sticky;
+    position: fixed;
     top: 0;
     background-color:rgb(6, 26, 56);
     font-family: 'Poppins', sans-serif;
