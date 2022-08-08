@@ -591,6 +591,7 @@ footer p{
     .about{
         width: 95%;
         margin: 2rem 0;
+        padding-top: 4rem;
         font-size: 1.5em ;
     }
 
@@ -610,6 +611,14 @@ footer p{
     .skills{
         width: 95%;
         margin: 2rem 0; 
+        padding-top: 4rem;        
+    }
+
+    .projects{
+        width: 95%;
+        margin: 2rem 0; 
+        padding-top: 4rem;
+
     }
 
     .projects h2{
@@ -631,6 +640,8 @@ footer p{
     .contact{
         width: 95%;
         margin: 2rem 0;
+        padding-top: 4rem;
+
     }
 
     .contact h2{
@@ -682,7 +693,7 @@ footer p{
     .about{
         width: 95%;
         padding: 0.8rem;
-        padding-top: 3.5rem;
+        padding-top: 4rem;
     }
 
     .aboutImg{
@@ -706,7 +717,7 @@ footer p{
     .projects{
         width: 95%;
         padding: 0.8rem;
-        padding-top: 3.5rem;
+        padding-top: 4rem;
     }
 
     .projects h2{
@@ -724,7 +735,7 @@ footer p{
     .skills{
         width: 95%;
         padding: 0.8rem;
-        padding-top: 3.5rem;
+        padding-top: 4rem;
     }
 
     .skills h2{
@@ -745,7 +756,7 @@ footer p{
     .contact{
         width: 95%;
         padding: 0.8rem;
-        padding-top: 3.5rem;
+        padding-top: 4rem;
     }
 
     .contact h2{
