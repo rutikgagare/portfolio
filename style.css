@@ -65,16 +65,16 @@ a:hover{
 /* sidebar for mobile view */
 
 .sidebar{
-    top: 0;
-    left: 0;
-    width: 240px;
-    position: absolute;
-    background-color:rgb(6, 26, 56);
+    top: 0.5rem;
+    width: 100vw;
+    position: sticky;
+    background-color:rgb(16, 16, 15);
     color: white;
-    min-height: 100vh;
+    height: 300px;
     font-family: 'Poppins', sans-serif;
     transition: transform 0.3s ease-in;
     visibility: hidden;
+    text-align: center;
 }
 
 .sidebar nav{
@@ -83,7 +83,7 @@ a:hover{
 
 .sidebar nav li{
     list-style: none;
-    font-size: 20px;
+    font-size: 14px;
     padding: 20px 0;
 }
 
@@ -446,7 +446,7 @@ a:hover{
 
 /*  */
 .sidebargo{
-    transform: translate(-400px,0px);
+    transform: translate(0px,-400px);
     position: absolute;
 }
 
@@ -455,11 +455,16 @@ a:hover{
 }
 
 .hamburger{
-    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+    position: sticky;
     cursor: pointer;
-    top: 10px;
-    left: 10px;
+    top: 0;
     visibility: hidden;
+    background-color: rgb(2, 2, 43);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .cross{
