@@ -466,6 +466,10 @@ a:hover{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.hamburger h3{
+    padding-top: 0.4rem;
+}
+
 .cross{
     margin-left: 180px;
     margin-top: 10px;
