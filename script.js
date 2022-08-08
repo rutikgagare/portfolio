@@ -1,4 +1,3 @@
-
 // for hamburger
 document.querySelector('.cross').style.display = 'none';
 document.querySelector('.hamburger').addEventListener("click",()=>{
@@ -14,16 +13,10 @@ document.querySelector('.hamburger').addEventListener("click",()=>{
     }
 })
 
-
 // light and dark mode
 var z = document.getElementById("btn");
 var p = document.getElementById("change_mode");
 
-// preloader
-var loader = document.getElementById("preloader");
-window.addEventListener("load",function(){
-    loader.style.display = 'none';
-})
 
 // auto typing
 var typed = new Typed(".auto",{
@@ -45,6 +38,12 @@ document.getElementsByClassName('nav').addEventListener('click',()=>{
         document.querySelector('.ham').style.display='none';
     }
 });
+
+// preloader
+var loader = document.getElementById("preloader");
+window.addEventListener("load",function(){
+    loader.style.display = 'none';
+})
 
 
 
