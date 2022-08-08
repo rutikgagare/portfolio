@@ -678,6 +678,7 @@ footer p{
     .about{
         width: 95%;
         padding: 0.8rem;
+        margin: 1rem 0;
     }
 
     .aboutImg{
@@ -700,6 +701,7 @@ footer p{
 
     .projects{
         width: 95%;
+        margin: 1rem 0;
     }
 
     .projects h2{
@@ -716,6 +718,7 @@ footer p{
 
     .skills{
         width: 95%;
+        margin: 1rem 0;
     }
 
     .skills h2{
@@ -735,6 +738,7 @@ footer p{
 
     .contact{
         width: 95%;
+        margin: 1rem 0;
     }
 
     .contact h2{
