@@ -681,8 +681,8 @@ footer p{
 
     .about{
         width: 95%;
-        padding: 0.8rem;
-        margin: 5rem 0;
+        padding: 5rem 0.8rem;
+        border: 2px solid red;
     }
 
     .aboutImg{
