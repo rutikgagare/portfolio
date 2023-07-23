@@ -352,7 +352,11 @@ a:hover{
 .project img{
     width: 230px;
     height: 360px;
+<<<<<<< HEAD
     border-radius: 1rem;
+=======
+    /* border-radius: 1rem; */
+>>>>>>> ffcb83b (updates)
 }
 
 .project h3{
